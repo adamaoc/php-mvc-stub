@@ -1,3 +1,6 @@
 <?php getHeader(); ?>
-hello <?=$data['name']?>
+
+  hello <?=$data['name']?>
+
+<?php getComponent('navigation'); ?>
 <?php getFooter(); ?>
